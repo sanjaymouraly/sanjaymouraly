@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Sanjay Mouraly — AI Engineer</title>
+  <desc id="desc">Evaluation-first AI systems, agents, applied AI, and engineering automation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="0.55" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#94a3b8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+  <rect x="0" y="0" width="1200" height="3" fill="url(#accent)"/>
+
+  <g>
+    <text x="64" y="66" fill="#38bdf8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="3">AI ENGINEER / EVIDENCE-FIRST SYSTEMS</text>
+    <text x="64" y="138" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1.5">Sanjay Mouraly</text>
+    <text x="64" y="180" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">Evaluation · Agents · Applied AI · Engineering Automation</text>
+    <rect x="64" y="202" width="520" height="2" rx="1" fill="url(#accent)" opacity="0.95"/>
+    <text x="64" y="240" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16">I build AI systems that can be measured, audited, and trusted.</text>
+  </g>
+
+  <g>
+    <rect x="840" y="46" width="310" height="208" rx="16" fill="#0f172a" fill-opacity="0.55" stroke="#334155" stroke-opacity="0.7"/>
+    <text x="995" y="72" text-anchor="middle" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2">EVIDENCE GRAPH</text>
+
+    <line x1="995" y1="145" x2="900" y2="104" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="995" y1="145" x2="1090" y2="100" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="995" y1="145" x2="920" y2="208" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="995" y1="145" x2="1086" y2="205" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1.5"/>
+    <line x1="900" y1="104" x2="920" y2="208" stroke="#f59e0b" stroke-opacity="0.35" stroke-width="1.2"/>
+    <line x1="1090" y1="100" x2="1086" y2="205" stroke="#f59e0b" stroke-opacity="0.35" stroke-width="1.2"/>
+
+    <circle cx="995" cy="145" r="22" fill="#38bdf8" fill-opacity="0.18" stroke="#38bdf8" stroke-width="2" filter="url(#glow)"/>
+    <circle cx="995" cy="145" r="6" fill="#38bdf8"/>
+    <text x="995" y="181" text-anchor="middle" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600">evidence</text>
+
+    <circle cx="900" cy="104" r="6" fill="#f59e0b"/>
+    <text x="900" y="88" text-anchor="middle" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10">source</text>
+
+    <circle cx="1090" cy="100" r="6" fill="#f59e0b"/>
+    <text x="1090" y="84" text-anchor="middle" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10">claim</text>
+
+    <circle cx="920" cy="208" r="6" fill="#f59e0b"/>
+    <text x="920" y="228" text-anchor="middle" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10">review</text>
+
+    <circle cx="1086" cy="205" r="6" fill="#f59e0b"/>
+    <text x="1086" y="225" text-anchor="middle" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10">decision</text>
+  </g>
+
+  <text x="1136" y="274" text-anchor="end" fill="#64748b" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1">30+ PUBLIC REPOS · 2023–2026</text>
+</svg>

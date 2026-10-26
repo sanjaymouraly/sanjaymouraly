@@ -61,7 +61,7 @@ Evidence graphs, launch-risk twins, procurement exceptions, production schedulin
 ## How I think about AI systems
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Sources] --> B[Retrieve]
     B --> C[Claims]
     C --> D[Evidence]

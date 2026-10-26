@@ -46,20 +46,32 @@
     <line x1="900" y1="104" x2="920" y2="208" stroke="#f59e0b" stroke-opacity="0.35" stroke-width="1.2"/>
     <line x1="1090" y1="100" x2="1086" y2="205" stroke="#f59e0b" stroke-opacity="0.35" stroke-width="1.2"/>
 
-    <circle cx="995" cy="145" r="22" fill="#38bdf8" fill-opacity="0.18" stroke="#38bdf8" stroke-width="2" filter="url(#glow)"/>
-    <circle cx="995" cy="145" r="6" fill="#38bdf8"/>
+    <circle cx="995" cy="145" r="22" fill="#38bdf8" fill-opacity="0.18" stroke="#38bdf8" stroke-width="2" filter="url(#glow)">
+      <animate attributeName="r" values="21;24;21" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="995" cy="145" r="6" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
+    </circle>
     <text x="995" y="181" text-anchor="middle" fill="#e2e8f0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600">evidence</text>
 
-    <circle cx="900" cy="104" r="6" fill="#f59e0b"/>
+    <circle cx="900" cy="104" r="6" fill="#f59e0b">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="5s" repeatCount="indefinite"/>
+    </circle>
     <text x="900" y="88" text-anchor="middle" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10">source</text>
 
-    <circle cx="1090" cy="100" r="6" fill="#f59e0b"/>
+    <circle cx="1090" cy="100" r="6" fill="#f59e0b">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="5.5s" repeatCount="indefinite"/>
+    </circle>
     <text x="1090" y="84" text-anchor="middle" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10">claim</text>
 
-    <circle cx="920" cy="208" r="6" fill="#f59e0b"/>
+    <circle cx="920" cy="208" r="6" fill="#f59e0b">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="6s" repeatCount="indefinite"/>
+    </circle>
     <text x="920" y="228" text-anchor="middle" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10">review</text>
 
-    <circle cx="1086" cy="205" r="6" fill="#f59e0b"/>
+    <circle cx="1086" cy="205" r="6" fill="#f59e0b">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
     <text x="1086" y="225" text-anchor="middle" fill="#94a3b8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="10">decision</text>
   </g>
 

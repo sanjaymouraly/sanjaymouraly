@@ -6,7 +6,16 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-sanjaymouraly-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/sanjaymouraly)
 [![Focus](https://img.shields.io/badge/Focus-AI%20Evaluation%20%7C%20Agents%20%7C%20Applied%20AI-0d1117?style=flat-square&logo=openai&logoColor=38bdf8)](#what-i-work-on)
-[![Repositories](https://img.shields.io/badge/Public%20repositories-30%2B-0d1117?style=flat-square&logo=github&logoColor=f59e0b)](https://github.com/sanjaymouraly?tab=repositories)
+[![Building](https://img.shields.io/badge/Currently%20building-AgentEvalOps-0d1117?style=flat-square&logo=github&logoColor=f59e0b)](https://github.com/sanjaymouraly/agentevalops-platform)
+
+</div>
+
+<div align="center">
+
+![Repositories](https://img.shields.io/badge/Repositories-36-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)
+![Systems](https://img.shields.io/badge/AI%20%26%20Automation-30%2B-0d1117?style=for-the-badge&logo=openai&logoColor=f59e0b)
+![Timeline](https://img.shields.io/badge/Build%20Timeline-2023%E2%80%932026-0d1117?style=for-the-badge&logo=github&logoColor=38bdf8)
+![Featured](https://img.shields.io/badge/Featured%20Systems-6-0d1117?style=for-the-badge&logo=github&logoColor=f59e0b)
 
 </div>
 
@@ -18,23 +27,124 @@ I care about systems that are **measurable**, **auditable**, and **useful** — 
 
 ## What I work on
 
-| Focus | The problems I like |
-|---|---|
-| **AI evaluation** | Agent benchmarks, calibration, inter-rater agreement, regression gates, drift. |
-| **Applied AI** | RAG over engineering documents, document extraction, SOP compliance, supplier risk. |
-| **Automation** | Excel and report pipelines, data cleaning, API reliability, log analysis. |
-| **Decision systems** | Evidence graphs, launch-risk twins, procurement exceptions, production scheduling. |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🧪 AI evaluation
+Agent benchmarks, calibration, inter-rater agreement, regression gates, drift.
+
+</td>
+<td width="50%" valign="top">
+
+#### 🧩 Applied AI
+RAG over engineering documents, document extraction, SOP compliance, supplier risk.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### ⚙️ Automation
+Excel and report pipelines, data cleaning, API reliability, log analysis.
+
+</td>
+<td width="50%" valign="top">
+
+#### 🧭 Decision systems
+Evidence graphs, launch-risk twins, procurement exceptions, production scheduling.
+
+</td>
+</tr>
+</table>
+
+## How I think about AI systems
+
+```mermaid
+flowchart LR
+    A[Sources] --> B[Retrieve]
+    B --> C[Claims]
+    C --> D[Evidence]
+    D --> E[Human review]
+    E --> F[Decision]
+    style A fill:#0f172a,stroke:#38bdf8,color:#e2e8f0
+    style B fill:#0f172a,stroke:#38bdf8,color:#e2e8f0
+    style C fill:#0f172a,stroke:#f59e0b,color:#e2e8f0
+    style D fill:#0f172a,stroke:#f59e0b,color:#e2e8f0
+    style E fill:#0f172a,stroke:#38bdf8,color:#e2e8f0
+    style F fill:#0f172a,stroke:#38bdf8,color:#e2e8f0
+```
 
 ## Selected systems
 
-| System | What it does | Stack |
-|---|---|---|
-| **[AgentEvalOps](https://github.com/sanjaymouraly/agentevalops-platform)** | Continuous qualification for AI agents: versioned benchmarks, isolated trials, pass@k, McNemar, drift signals. | Python · FastAPI · React · Docker |
-| **[Mini SWE-Bench](https://github.com/sanjaymouraly/mini-swe-bench-bug-repair)** | Bug-repair benchmark with isolated grading, anti-tampering checks, and 12 reproducible repos. | Python · Docker · pytest |
-| **[AI SOP Compliance Checker](https://github.com/sanjaymouraly/ai-manufacturing-sop-compliance-checker)** | Evidence-first manufacturing SOP audits with quote-level verification and RBAC. | FastAPI · React · LLM adapters |
-| **[RAG Evaluation Monitor](https://github.com/sanjaymouraly/rag-evaluation-drift-monitor)** | Regression and drift monitoring for retrieval, answers, citations, latency, and cost. | Python · Streamlit · RAG |
-| **[NPI Launch Risk Twin](https://github.com/sanjaymouraly/npi-launch-risk-digital-twin)** | Digital twin for NPI launch risk: CPM, CP-SAT, Monte Carlo, and scenario comparison. | FastAPI · OR-Tools · React |
-| **[Evidence-Graph Auditor](https://github.com/sanjaymouraly/evidence-graph-ai-auditor)** | Traces business decisions to typed evidence and surfaces conflicting evidence. | Python · FastAPI · LLM |
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 🧪 AgentEvalOps
+**Continuous agent qualification.**
+Versioned benchmarks, isolated trials, pass@k, McNemar, and drift signals.
+`Python` `FastAPI` `React` `Docker`
+
+[Explore →](https://github.com/sanjaymouraly/agentevalops-platform)
+
+</td>
+<td width="50%" valign="top">
+
+#### 🧭 Mini SWE-Bench
+**Bug-repair evaluation.**
+Isolated grading, anti-tampering checks, and 12 reproducible repos.
+`Python` `Docker` `pytest`
+
+[Explore →](https://github.com/sanjaymouraly/mini-swe-bench-bug-repair)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🏭 AI SOP Compliance Checker
+**Evidence-first manufacturing audits.**
+Quote-level verification, RBAC, and conflict detection.
+`FastAPI` `React` `LLM adapters`
+
+[Explore →](https://github.com/sanjaymouraly/ai-manufacturing-sop-compliance-checker)
+
+</td>
+<td width="50%" valign="top">
+
+#### 📡 RAG Evaluation Monitor
+**Quality regression and drift.**
+Retrieval, answers, citations, latency, and cost tracked together.
+`Python` `Streamlit` `RAG`
+
+[Explore →](https://github.com/sanjaymouraly/rag-evaluation-drift-monitor)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🛰️ NPI Launch Risk Twin
+**Decision intelligence for launches.**
+CPM, CP-SAT, Monte Carlo, and paired scenario comparison.
+`FastAPI` `OR-Tools` `React`
+
+[Explore →](https://github.com/sanjaymouraly/npi-launch-risk-digital-twin)
+
+</td>
+<td width="50%" valign="top">
+
+#### 🕸️ Evidence-Graph Auditor
+**Trace decisions to evidence.**
+Typed evidence spans, conflict surfacing, and auditable gates.
+`Python` `FastAPI` `LLM`
+
+[Explore →](https://github.com/sanjaymouraly/evidence-graph-ai-auditor)
+
+</td>
+</tr>
+</table>
 
 > New here? Start with **AgentEvalOps** for evaluation, **NPI Launch Risk Twin** for decision intelligence, or **Smart File Organizer** for practical automation.
 
@@ -56,29 +166,32 @@ I care about systems that are **measurable**, **auditable**, and **useful** — 
 
 ## Toolbox
 
-**AI and data**
+<div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+<img src="https://skillicons.dev/icons?i=py,pytorch,fastapi,react,ts,docker,postgres,git&theme=dark" alt="Python, PyTorch, FastAPI, React, TypeScript, Docker, PostgreSQL, Git" />
+
+<br/><br/>
+
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 
-**Product and infrastructure**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+</div>
 
 ## Currently
 
-- Building **AgentEvalOps** and evidence-first evaluation tooling.
-- Exploring multimodal verification, agent safety, and human-in-the-loop review.
-- Open to conversations about AI evaluation, applied AI, and engineering automation.
+```text
+$ whoami
+sanjay mouraly
+
+$ focus
+evaluation-first ai systems · agents · applied automation
+
+$ building
+AgentEvalOps — continuous qualification for AI agents
+```
 
 ## Connect
 
@@ -86,6 +199,8 @@ The best way to reach me is here on GitHub — open an issue or start a discussi
 
 <div align="center">
 
-**30+ public repositories · 2023–2026 · built with Python, Markdown, and a bias toward evidence.**
+[![GitHub](https://img.shields.io/badge/GitHub-sanjaymouraly-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sanjaymouraly)
+
+**36 public repositories · 2023–2026 · built with Python, Markdown, and a bias toward evidence.**
 
 </div>

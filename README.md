@@ -60,18 +60,13 @@ Evidence graphs, launch-risk twins, procurement exceptions, production schedulin
 
 ## How I think about AI systems
 
-```mermaid
-flowchart LR
-    A[Sources] --> B[Retrieve + claims]
-    B --> C[Evidence]
-    C --> D[Human review]
-    C --> E[Decision]
-    style A fill:#0f172a,stroke:#38bdf8,color:#e2e8f0
-    style B fill:#0f172a,stroke:#38bdf8,color:#e2e8f0
-    style C fill:#0f172a,stroke:#f59e0b,color:#e2e8f0
-    style D fill:#0f172a,stroke:#38bdf8,color:#e2e8f0
-    style E fill:#0f172a,stroke:#38bdf8,color:#e2e8f0
-```
+<div align="center">
+
+`Sources` → `Retrieve + claims` → `Evidence` → `Human review` → `Decision`
+
+</div>
+
+The goal is not just an answer. It is an answer that can be traced, challenged, and improved.
 
 ## Selected systems
 
